@@ -187,7 +187,7 @@ Cargo:
 
   ```json
   {
-    "idEmpleado": 123456,
+    "idEmp": 123456,
     "nombre": "Karen",
     "fechaIngreso": "2023-10-20",
     "idCargo": 1,
