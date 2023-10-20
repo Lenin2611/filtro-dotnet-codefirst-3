@@ -13,8 +13,8 @@ public class EmpleadoConfiguration : IEntityTypeConfiguration<Empleado>
         builder.HasKey(x => x.Id);
         builder.Property(x => x.Id);
 
-        builder.Property(x => x.IdEmpleado).HasColumnType("int");
-        builder.HasIndex(x=>x.IdEmpleado).IsUnique();
+        builder.Property(x => x.IdEmp).HasColumnType("int");
+        builder.HasIndex(x=>x.IdEmp).IsUnique();
 
         builder.Property(x => x.Nombre).IsRequired().HasMaxLength(50);
 
