@@ -345,8 +345,10 @@ Cargo:
 
   ```json
   {
-    "descripcion": "Se vendieron 5 camisas y 2 pantalones",
-    "sueldoBase": 200
+    "fecha": "2023-10-20",
+    "idEmpleado": 1,
+    "idCliente": 1,
+    "idFormaPago": 1
   }
   ```
 
