@@ -123,8 +123,8 @@ Cargo:
 - Post: http://localhost:5253/api/Cargo Put: http://localhost:5253/api/Cargo/1
 
   ```json
-  {  
-  	"descripcion": "Vendedor", 
+  { 
+  	"descripcion": "Vendedor",
   	"sueldoBase": 500
   }
   ```
